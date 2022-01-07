@@ -1,6 +1,15 @@
 schemaVersion: 2.1.0
 metadata:
   name: nodejs-web-app
+projects:
+  - git:
+      checkoutFrom:
+        remote: dkwon17
+        revision: my-feature
+      remotes:
+        dkwon17: 'https://github.com/dkwon17/web-nodejs-sample.git'
+        origin: 'https://github.com/ykp77/web-nodejs-sample.git'
+    name: web-nodejs-sample
 components:
   - name: nodejs
     container:
